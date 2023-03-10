@@ -1,11 +1,12 @@
 body {
-    display: grid;
+    display: flex;
     background-color: hsl(220, 15%, 55%);
     font-family: 'Jost', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Orbitron', sans-serif;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
